@@ -1,6 +1,6 @@
 # Release Setup Notes
 
-Current public app release: **v5.3.6+91**
+Current public app release: **v5.3.6+92**
 
 This repository is the public release surface for Velvet app downloads. It should stay free of source code, build scripts, provider examples, secrets, certificates, keys, and private release tooling.
 
@@ -58,32 +58,29 @@ GPG key:
 - Key ID: `C93D935A3FF2B868`
 - Signing key fingerprint: `6FB975833C5F064E08AA7E07C93D935A3FF2B868`
 
-The public release repo root commit and `v5.3.6+91` tag were signed with this key.
+The public release repo root commit and `v5.3.6+92` tag were signed with this key.
 
-## Release v5.3.6+91
+## Release v5.3.6+92
 
 Release URL:
 
-https://github.com/velvetplus/app/releases/tag/v5.3.6%2B91
+https://github.com/velvetplus/app/releases/tag/v5.3.6%2B92
 
 Attached assets:
 
-- `velvet-v5.3.6+91-android-apk.apk`
-- `velvet-v5.3.6+91-android-aab.aab`
-- `velvet-v5.3.6+91-ios-ipa.ipa`
-- `velvet-v5.3.6+91-macos-app.zip`
-- `velvet-v5.3.6+91-checksums.txt`
+- `velvet-v5.3.6+92-android-apk.apk`
+- `velvet-v5.3.6+92-checksums.txt`
 
 Direct download URL pattern:
 
 ```text
-https://github.com/velvetplus/app/releases/download/v5.3.6%2B91/<asset-name>
+https://github.com/velvetplus/app/releases/download/v5.3.6%2B92/<asset-name>
 ```
 
 Example:
 
 ```text
-https://github.com/velvetplus/app/releases/download/v5.3.6%2B91/velvet-v5.3.6+91-android-apk.apk
+https://github.com/velvetplus/app/releases/download/v5.3.6%2B92/velvet-v5.3.6+92-android-apk.apk
 ```
 
 ## Source App Repo Work
@@ -98,17 +95,13 @@ Local path:
 
 Committed and pushed:
 
-- Commit: `2a9b73d`
-- Message: `release: prepare Velvet v5.3.6+91 assets`
+- Commit: `0aeb5b6`
+- Message: `release: bump app version to 5.3.6+92`
 - Signed with `C93D935A3FF2B868`
 
 That source app commit included:
 
-- `pubspec.yaml` version update to `5.3.6+91`
-- Android launcher icon updates
-- iOS app icon updates
-- macOS app icon updates
-- iOS launch screen branding update
+- `pubspec.yaml` version update to `5.3.6+92`
 
 The untracked file `../secrets/admob-token.json` was not committed or pushed.
 
@@ -128,9 +121,9 @@ The web portal download page is generated from:
 src/velvet_app/pages/static.py
 ```
 
-The `/download` page was updated to show direct GitHub release asset links for the attached `v5.3.6+91` builds.
+The `/download` page was updated to show direct GitHub release asset links for the attached `v5.3.6+92` builds.
 
-Platforms without attached assets in `v5.3.6+91` are shown as pending instead of linking to nonexistent files.
+Platforms without attached assets in `v5.3.6+92` are shown as pending instead of linking to nonexistent files.
 
 Committed and pushed:
 
@@ -152,11 +145,11 @@ Result:
 "build linux" only supported on Linux hosts.
 ```
 
-This was run on macOS, so a Linux `.tar.gz` asset could not be produced locally. Build Linux on a Linux host, then upload the resulting bundle to the `v5.3.6+91` release or a later release.
+This was run on macOS, so a Linux `.tar.gz` asset could not be produced locally. Build Linux on a Linux host, then upload the resulting bundle to the `v5.3.6+92` release or a later release.
 
 ## Tizen Status
 
-No `.tpk` artifact was available locally for `v5.3.6+91`.
+No `.tpk` artifact was available locally for `v5.3.6+92`.
 
 `flutter-tizen` was not installed on the machine used for this release work. Tizen requires a configured Flutter Tizen toolchain before a `.tpk` can be produced and attached.
 

@@ -2,26 +2,26 @@
 
 Velvet is a multi-platform IPTV player for watching live TV, movies, and series through the provider account you already use. Velvet does not sell channels, subscriptions, playlists, or provider access.
 
-Current release: **v5.3.6+91**
+Current release: **v5.3.6+92**
 
-Download the latest build from [GitHub Releases](../../releases/tag/v5.3.6%2B91).
+Download the latest build from [GitHub Releases](../../releases/tag/v5.3.6%2B92).
 
 ## Downloads
 
 Choose the file that matches your device:
 
-| Platform | v5.3.6+91 download |
+| Platform | v5.3.6+92 download |
 | --- | --- |
-| Android | [APK](../../releases/download/v5.3.6%2B91/velvet-v5.3.6+91-android-apk.apk), [AAB](../../releases/download/v5.3.6%2B91/velvet-v5.3.6+91-android-aab.aab) |
-| iOS | [IPA](../../releases/download/v5.3.6%2B91/velvet-v5.3.6+91-ios-ipa.ipa) |
-| macOS | [App ZIP](../../releases/download/v5.3.6%2B91/velvet-v5.3.6+91-macos-app.zip) |
-| Checksums | [SHA-256](../../releases/download/v5.3.6%2B91/velvet-v5.3.6+91-checksums.txt) |
-| Linux | Not attached in `v5.3.6+91`; requires a Linux host build |
-| Windows | Not attached in `v5.3.6+91`; requires a Windows host build |
-| Web | Not attached in `v5.3.6+91`; requires a production web bundle |
-| Tizen | Not attached in `v5.3.6+91`; requires a Flutter Tizen `.tpk` build |
+| Android | [APK](../../releases/download/v5.3.6%2B92/velvet-v5.3.6+92-android-apk.apk) |
+| Checksums | [SHA-256](../../releases/download/v5.3.6%2B92/velvet-v5.3.6+92-checksums.txt) |
+| Linux | Not attached in `v5.3.6+92`; requires a Linux host build |
+| Tizen | Not attached in `v5.3.6+92`; requires a Flutter Tizen `.tpk` build |
+| iOS | Not attached in `v5.3.6+92`; requires a signed Apple distribution build |
+| macOS | Not attached in `v5.3.6+92`; requires a macOS host build |
+| Windows | Not attached in `v5.3.6+92`; requires a Windows host build |
+| Web | Not attached in `v5.3.6+92`; requires a production web bundle |
 
-Release tags use the app version and build number, for example `v5.3.6+91`.
+Release tags use the app version and build number, for example `v5.3.6+92`.
 
 ## Features
 
@@ -93,19 +93,19 @@ Download the `.zip`, extract it, and move Velvet into `/Applications`. If macOS 
 
 ### Linux
 
-No Linux asset is attached to `v5.3.6+91`. Linux builds must be produced on a Linux host.
+No Linux asset is attached to `v5.3.6+92`. Linux builds must be produced on a Linux host.
 
 ### Windows
 
-No Windows asset is attached to `v5.3.6+91`. Windows builds must be produced on a Windows host.
+No Windows asset is attached to `v5.3.6+92`. Windows builds must be produced on a Windows host.
 
 ### Web
 
-No web static bundle is attached to `v5.3.6+91`.
+No web static bundle is attached to `v5.3.6+92`.
 
 ### Tizen
 
-No Tizen `.tpk` is attached to `v5.3.6+91`. Tizen builds require the Flutter Tizen toolchain.
+No Tizen `.tpk` is attached to `v5.3.6+92`. Tizen builds require the Flutter Tizen toolchain.
 
 ## Use
 
@@ -137,7 +137,7 @@ Run sync when your provider lineup changes, guide data looks stale, or a title n
 - Browser playback cannot always inject the same transport headers as native apps.
 - Guide data appears only when usable guide data is available after sync.
 - Store billing is available in the iOS, Android, and macOS apps; other platforms do not expose in-app store billing in this release.
-- Linux, Windows, Web, and Tizen assets are not attached to `v5.3.6+91`.
+- Linux, Windows, Web, and Tizen assets are not attached to `v5.3.6+92`.
 - Linux desktop builds must be produced on a Linux host.
 - Windows desktop builds must be produced on a Windows host.
 - Tizen packages require a configured Flutter Tizen toolchain and generated `.tpk`.
