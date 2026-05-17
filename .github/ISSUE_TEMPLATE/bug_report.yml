@@ -1,0 +1,61 @@
+name: Install or playback issue
+description: Report an install problem, broken download, or playback regression
+title: "[Issue]: "
+labels:
+  - type:bug
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - macOS
+        - Linux
+        - Windows
+        - Web
+        - Tizen
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Velvet version
+      description: Example `v5.3.6+91`
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Download
+        - Install
+        - Link device
+        - Sync
+        - Live TV
+        - VOD
+        - Series
+        - Favorites
+        - Search
+        - Billing or restore
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened
+      description: Do not include provider credentials or private account details.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result

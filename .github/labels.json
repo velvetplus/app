@@ -1,0 +1,15 @@
+[
+  { "name": "platform:android", "color": "0E8A16", "description": "Android install or playback issue" },
+  { "name": "platform:ios", "color": "1D76DB", "description": "iOS install or playback issue" },
+  { "name": "platform:macos", "color": "0052CC", "description": "macOS install or playback issue" },
+  { "name": "platform:linux", "color": "5319E7", "description": "Linux install or playback issue" },
+  { "name": "platform:windows", "color": "006B75", "description": "Windows install or playback issue" },
+  { "name": "platform:web", "color": "FBCA04", "description": "Web release or deployment issue" },
+  { "name": "platform:tizen", "color": "B60205", "description": "Tizen install or playback issue" },
+  { "name": "type:bug", "color": "D73A4A", "description": "Broken download, install problem, or playback regression" },
+  { "name": "type:docs", "color": "0075CA", "description": "Public documentation correction" },
+  { "name": "type:support", "color": "A2EEEF", "description": "Support or troubleshooting request" },
+  { "name": "priority:p0", "color": "B60205", "description": "Critical public release issue" },
+  { "name": "priority:p1", "color": "D93F0B", "description": "High-priority public issue" },
+  { "name": "priority:p2", "color": "FBCA04", "description": "Normal-priority public issue" }
+]

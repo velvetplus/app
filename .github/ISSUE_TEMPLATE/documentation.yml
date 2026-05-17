@@ -1,0 +1,20 @@
+name: Documentation correction
+description: Report unclear or incorrect public documentation
+title: "[Docs]: "
+labels:
+  - type:docs
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Page or section
+      description: Link or name the section that needs correction.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction
+      description: Explain what should change.
+    validations:
+      required: true
